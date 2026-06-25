@@ -1,0 +1,55 @@
+{
+  "expo": {
+    "name": "Unlock the Road",
+    "slug": "mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/Updatedicon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.unlocktheroad.app",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false,
+        "UIBackgroundModes": ["location"],
+        "NSLocationAlwaysAndWhenInUseUsageDescription": "Unlock the Road needs your location to track trips even when the app is in the background.",
+        "NSLocationAlwaysUsageDescription": "Unlock the Road needs your location to track trips even when the app is in the background.",
+        "NSLocationWhenInUseUsageDescription": "Unlock the Road needs your location to find nearby places and unlock locations."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-secure-store",
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Unlock the Road needs your location to track trips even when the app is in the background.",
+          "locationAlwaysPermission": "Unlock the Road needs your location to track trips even when the app is in the background.",
+          "locationWhenInUsePermission": "Unlock the Road needs your location to find nearby places and unlock locations.",
+          "isAndroidBackgroundLocationEnabled": true,
+          "isAndroidForegroundServiceEnabled": true
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "dad29f00-46aa-4360-ac0e-960b75bc9df3"
+      }
+    }
+  }
+}

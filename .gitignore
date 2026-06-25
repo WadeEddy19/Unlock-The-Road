@@ -1,0 +1,56 @@
+# Secrets / environment (NEVER commit these)
+.env
+*.env
+!.env.example
+backend/.env
+mobile/.env
+
+# Python / Flask (backend)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+venv/
+.venv/
+env/
+ENV/
+.Python
+pip-log.txt
+.pytest_cache/
+.mypy_cache/
+
+# Backend runtime uploads (local file storage; not for repo)
+backend/uploads/
+
+# Node / Expo / React Native (mobile)
+node_modules/
+.expo/
+.expo-shared/
+dist/
+web-build/
+expo-env.d.ts
+.metro-health-check*
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+*.tsbuildinfo
+
+# Generated native folders
+/mobile/ios
+/mobile/android
+
+# Signing / certs (keep private)
+*.jks
+*.p8
+*.p12
+*.key
+*.pem
+*.mobileprovision
+*.orig.*
+
+# OS / Editor cruft
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
