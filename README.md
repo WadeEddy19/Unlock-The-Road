@@ -4,24 +4,22 @@
 
 Full-stack solo build: a **Flask + MongoDB** REST API and a **React Native (Expo)** mobile client, deployed to the cloud and distributed to physical iOS devices.
 
-<!-- TODO: replace with your live demo GIF — 10s of approaching a location and unlocking it -->
 <p align="center">
-  <img src="docs/demo.gif" width="280" alt="Unlocking a location in Unlock the Road" />
+  <img src="docs/demo.gif" width="240" alt="Exploring the live map of nearby unlockable locations" />
 </p>
 
 ---
 
 ## Demo
 
-<!-- TODO: drop 3–4 phone screenshots into a docs/ folder and update the paths below -->
 <p align="center">
-  <img src="docs/screen-map.png" width="220" alt="Map with live route tracking" />
-  <img src="docs/screen-location-detail.png" width="220" alt="Location detail and unlock" />
-  <img src="docs/screen-profile.png" width="220" alt="Profile, XP and leveling" />
-  <img src="docs/screen-gallery.png" width="220" alt="Per-location photo gallery" />
+  <img src="docs/screen-map.png" width="200" alt="Explore map with nearby locations and live position" />
+  <img src="docs/screen-locations.png" width="200" alt="Browsable location list with XP rewards" />
+  <img src="docs/screen-trip.png" width="200" alt="Recorded trip with route, distance and duration" />
+  <img src="docs/screen-profile.png" width="200" alt="Explorer profile with XP, level and stats" />
 </p>
 
-> *Live map with route tracking · Location detail & proximity unlock · XP / leveling profile · Per-location photo galleries*
+> *Explore map with live position & nearby pins · Browsable locations with XP rewards · Recorded trip route with distance/duration · Explorer profile with leveling & stats*
 
 ---
 
